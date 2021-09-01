@@ -16,10 +16,10 @@ const onPageLoad = async () => {
    document.getElementById('galleryTitle').innerText = meta.galleryTitle[0];
    document.getElementById('categories').innerHTML = categories.map(({ category, count, subCatrgory }) => {
       return `
-         <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+         <a href="photos.html?category=${category}#portfolio" class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
             <div class="icon-box">
             <div class="icon"><i class='bx bx-photo-album'></i></div>
-            <h4><a href="photos.html?category=${category}#portfolio">${category}</a></h4>
+            <h4 style="color: #fff;">${category}</h4>
             <p>
                ${count} Photos 
                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -31,7 +31,7 @@ const onPageLoad = async () => {
                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             </p>
             </div>
-         </div>
+         </a>
       `;
    }).join('');
 
