@@ -1,6 +1,2 @@
-Thanks for downloading this template!
-
-Template Name: Personal
-Template URL: https://bootstrapmade.com/personal-free-resume-bootstrap-template/
-Author: BootstrapMade.com
-License: https://bootstrapmade.com/license/
+# [Photo and Souvenir](http://photoandsouvenir.com.np/)
+## We offer souvenir and digital photos of nepal
