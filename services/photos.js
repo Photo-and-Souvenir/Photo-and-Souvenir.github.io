@@ -3,8 +3,8 @@ const onPageLoad = async () => {
   const params = Object.fromEntries(urlSearchParams.entries());
 
   let [meta, photos] = await Promise.all([
-    axios.get('https://photo-and-souvenir.herokuapp.com/meta').then(data => data.data),
-    axios.get(`https://photo-and-souvenir.herokuapp.com/photos?categoryName=${params.category}`).then(data => data.data)
+    axios.get('https://photo-and-souvenir-api.onrender.com/meta').then(data => data.data),
+    axios.get(`https://photo-and-souvenir-api.onrender.com/photos?categoryName=${params.category}`).then(data => data.data)
   ]);
   meta = meta.data;
   photos = photos.data;

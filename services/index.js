@@ -1,7 +1,7 @@
 const onPageLoad = async () => {
    let [meta, categories] = await Promise.all([
-      axios.get('https://photo-and-souvenir.herokuapp.com/meta').then(data => data.data),
-      axios.get('https://photo-and-souvenir.herokuapp.com/categories').then(data => data.data)
+      axios.get('https://photo-and-souvenir-api.onrender.com/meta').then(data => data.data),
+      axios.get('https://photo-and-souvenir-api.onrender.com/categories').then(data => data.data)
    ]);
 
    meta = meta.data;
