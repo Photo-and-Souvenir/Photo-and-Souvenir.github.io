@@ -39,6 +39,8 @@ const onPageLoad = async () => {
    document.getElementById('address').innerText = meta.address[0];
    document.getElementById('email').innerText = meta.email[0];
    document.getElementById('contactNumber').innerText = meta.contactNumber[0];
+   document.getElementById('headerEmail').innerHTML = `<b><i class="bx bx-envelope"></i> <a target="_blank" href='mailto:${meta.email[0]}'>${meta.email[0]}</a>  </b>`;
+   document.getElementById('headerContactNumber').innerHTML = `<b><i class="bx bx-phone-call"></i> <a target="_blank" href='tel:${meta.contactNumber[0]}'>${meta.contactNumber[0]}</a></b>`;
 
    return true
 }
