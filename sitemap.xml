@@ -9,31 +9,31 @@
         <loc>https://photoandsouvenir.com.np/</loc>
         <lastmod>2023-07-31T08:00:00+00:00</lastmod>
         <priority>1.00</priority>
-        <title>Photo & Souvenir Home</title>
+        <!-- <title>Photo & Souvenir Home</title> -->
     </url>
     <url>
         <loc>https://photoandsouvenir.com.np/index.html#about</loc>
         <lastmod>2023-07-31T08:00:00+00:00</lastmod>
         <priority>0.80</priority>
-        <title>About Us - Photo & Souvenir</title>
+        <!-- <title>About Us - Photo & Souvenir</title> -->
     </url>
     <url>
         <loc>https://photoandsouvenir.com.np/index.html#book</loc>
         <lastmod>2023-07-31T08:00:00+00:00</lastmod>
         <priority>0.70</priority>
-        <title>Book Now - Photo & Souvenir</title>
+        <!-- <title>Book Now - Photo & Souvenir</title> -->
     </url>
     <url>
         <loc>https://photoandsouvenir.com.np/index.html#contact</loc>
         <lastmod>2023-07-31T08:00:00+00:00</lastmod>
         <priority>0.80</priority>
-        <title>Contact Us - Photo & Souvenir</title>
+        <!-- <title>Contact Us - Photo & Souvenir</title> -->
     </url>
     <url>
         <loc>https://photoandsouvenir.com.np/index.html#pins</loc>
         <lastmod>2023-07-31T08:00:00+00:00</lastmod>
         <priority>0.70</priority>
-        <title>Pins Collection - Photo & Souvenir</title>
+        <!-- <title>Pins Collection - Photo & Souvenir</title> -->
     </url>
 
 </urlset>
