@@ -7,11 +7,11 @@ const onPageLoad = async () => {
    meta = meta.data;
 
    document.getElementById('title').innerText = meta.title[0];
-   document.getElementById('oneLinerIntro').innerText = meta.oneLinerIntro[0];
+   // document.getElementById('oneLinerIntro').innerText = meta.oneLinerIntro[0];
 
-   document.getElementById('aboutTitle').innerText = meta.aboutTitle[0];
-   document.getElementById('yourName').innerText = meta.yourName[0];
-   document.getElementById('aboutText').innerHTML = meta.aboutText[0];
+   // document.getElementById('aboutTitle').innerText = meta.aboutTitle[0];
+   // document.getElementById('yourName').innerText = meta.yourName[0];
+   // document.getElementById('aboutText').innerHTML = meta.aboutText[0];
 
    document.getElementById('galleryTitle').innerText = meta.galleryTitle[0];
    document.getElementById('categories').innerHTML = categories.map(({ category, count, subCatrgory }) => {
@@ -35,12 +35,12 @@ const onPageLoad = async () => {
       `;
    }).join('');
 
-   document.getElementById('contactTitle').innerText = meta.contactTitle[0];
-   document.getElementById('address').innerText = meta.address[0];
-   document.getElementById('email').innerText = meta.email[0];
-   document.getElementById('contactNumber').innerText = meta.contactNumber[0];
-   document.getElementById('headerEmail').innerHTML = `<b><i class="bx bx-envelope"></i> <a target="_blank" href='mailto:${meta.email[0]}'>${meta.email[0]}</a>  </b>`;
-   document.getElementById('headerContactNumber').innerHTML = `<b><i class="bx bx-phone-call"></i> <a target="_blank" href='tel:${meta.contactNumber[0]}'>${meta.contactNumber[0]}</a></b>`;
+   // document.getElementById('contactTitle').innerText = meta.contactTitle[0];
+   // document.getElementById('address').innerText = meta.address[0];
+   // document.getElementById('email').innerText = meta.email[0];
+   // document.getElementById('contactNumber').innerText = meta.contactNumber[0];
+   // document.getElementById('headerEmail').innerHTML = `<b><i class="bx bx-envelope"></i> <a target="_blank" href='mailto:${meta.email[0]}'>${meta.email[0]}</a>  </b>`;
+   // document.getElementById('headerContactNumber').innerHTML = `<b><i class="bx bx-phone-call"></i> <a target="_blank" href='tel:${meta.contactNumber[0]}'>${meta.contactNumber[0]}</a></b>`;
 
    return true
 }
